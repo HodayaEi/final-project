@@ -27,9 +27,11 @@
   "devDependencies": {
     "@types/chai": "^4.3.16",
     "@types/mocha": "^10.0.7",
-    "chai": "^5.1.1",
+    "chai": "^5.1.2",
+    "chai-http": "^5.1.1",
     "globals": "^15.8.0",
-    "mocha": "^10.6.0",
-    "nodemon": "^3.1.4"
+    "mocha": "^10.8.2",
+    "nodemon": "^3.1.4",
+    "supertest": "^7.0.0"
   }
 }
