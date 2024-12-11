@@ -33,7 +33,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./TournaME-client
+        working-directory: ./TournaME-Client
 
     steps:
     - uses: actions/checkout@v3
@@ -43,7 +43,7 @@ jobs:
       with:
         node-version: '18.x'
         cache: 'npm'
-        cache-dependency-path: './TournaME-client/package-lock.json'
+        cache-dependency-path: './TournaME-Client/package-lock.json'
     
     - name: Install Dependencies
       run: npm ci
