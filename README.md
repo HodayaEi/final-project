@@ -1,9 +1,4 @@
 ### Run the project:
 ```
-docker compose up
-```
-
-### Stop the project:
-```
-docker compose down
+docker-compose up -d
 ```
