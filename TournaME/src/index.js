@@ -1,3 +1,6 @@
+import dotenv from 'dotenv';
+dotenv.config();
+
 import axios from "axios";
 import express from "express";
 import cors from 'cors';
@@ -26,6 +29,7 @@ import {
     return_games, delete_user, join_tournament, leave_tournament,
 } from "./database/connect.js"
 import mongoose from "mongoose";
+
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////      EXPRESS CONFIGURATION          ///////////////////////////////////////////

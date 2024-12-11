@@ -5,7 +5,7 @@ import Comment from "./models/comment.js"
 import Game from "./models/game.js"
 import {MongoClient} from "mongodb";
 
-const uri = "mongodb+srv://site_admin:u51M8fdy6SC59JsN@cluster0.ylk6bpw.mongodb.net/MAIN?retryWrites=true&w=majority&appName=Cluster0";
+const uri = process.env.MONGODB_URI;
 const database = "MAIN"
 
 const clientOptions = { serverApi: { version: '1', strict: true, deprecationErrors: true } };
